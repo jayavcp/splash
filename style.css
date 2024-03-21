@@ -1,0 +1,36 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  border: solid black;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+header {
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  color: grey;
+}
+
+.box {
+  border: solid black;
+  display: flex;
+  width: 150px;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+}
